@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA328P
+D 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F https://www.sparkfun.com/datasheets/Components/SMD/ATMega328.pdf
+$ENDCMP
+#
+$CMP AUDIO-JACK
+D TRS
+K TRS
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP N-MOSFET
+D N-Channel MOSFET, TO-220
+K N-Channel MOSFET, TO-220
+F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+$ENDCMP
+#
+#End Doc Library

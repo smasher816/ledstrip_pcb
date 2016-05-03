@@ -1,0 +1,98 @@
+
+(rules PCB visualizer
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5213)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-TagConnect" "Via[0-1]_600:400_um" TagConnect
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    TagConnect "Via[0-1]_600:400_um-TagConnect"
+  )
+  (class default
+    "@:no_net_0" "@:no_net_1" "@:no_net_2"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND /B1 /B2 "Net-(C8-Pad2)" "Net-(C9-Pad1)" "Net-(C7-Pad1)" "Net-(C12-Pad2)" "Net-(C13-Pad1)"
+    "Net-(C11-Pad1)" +12V "Net-(D1-Pad1)" /RESET /D2 /D4 /D7 /BTN1
+    "/LED_B1" "/LED_R1" "/LED_G1" "/LED_B2" "/LED_R2" "/LED_G2" +5V /AUX
+    +3V3 /XTAL2 /XTAL1 /RX /TX /R1 /G1 /R2
+    /G2 /POT1 /POT2 /SDA /SCL "/PWR_IN" /RIGHT /LEFT
+    /MISO /CLK /EQ1 /EQ2
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class TagConnect
+    (clearance_class TagConnect)
+    (via_rule TagConnect)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -1,0 +1,339 @@
+Cmp-Mod V01 Created by PcbNew   date = Tue 20 Oct 2015 04:07:54 PM PDT
+
+BeginCmp
+TimeStamp = 56282853
+Path = /5620558F
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5624A37C
+Path = /562630B4
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282ADF
+Path = /562643E6
+Reference = U2;
+ValeurCmp = NCP1117ST50T3G;
+IdModule  = ab2_sot:AB2_SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628283B
+Path = /5620503C
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282847
+Path = /56205635
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628286E
+Path = /5620A61E
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:c_elec_4x4.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282889
+Path = /5620A6B5
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:c_elec_4x4.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282895
+Path = /562F8E05
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828A1
+Path = /562F8E17
+Reference = C7;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828AD
+Path = /562F8E0B
+Reference = C8;
+ValeurCmp = 33pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828B9
+Path = /562F8E1D
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828C5
+Path = /562D5F4F
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828D1
+Path = /562D5F52
+Reference = C11;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828DD
+Path = /562D5F50
+Reference = C12;
+ValeurCmp = 33pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828E9
+Path = /562D5F53
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 562828FF
+Path = /562097CE
+Reference = CON2;
+ValeurCmp = BARREL_JACK;
+IdModule  = ab2_power:AB2_PB_2MM_JACK_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282912
+Path = /5620CA0E
+Reference = D1;
+ValeurCmp = PWRLED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282968
+Path = /562A782C
+Reference = J1;
+ValeurCmp = AUDIO_IN;
+IdModule  = ab2_audio:AB2_JACK_3.5MM-3P-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282993
+Path = /562A7B9C
+Reference = J2;
+ValeurCmp = AUDIO_OUT;
+IdModule  = ab2_audio:AB2_JACK_3.5MM-3P-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 562829CA
+Path = /5621D0D8
+Reference = P1;
+ValeurCmp = TC2050-IDC;
+IdModule  = Tag-Connect:TC2050_BIG;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A02
+Path = /56207B6F
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A0E
+Path = /5620CDC7
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A1A
+Path = /562F8E11
+Reference = R3;
+ValeurCmp = 200K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A26
+Path = /562D5F51
+Reference = R4;
+ValeurCmp = 200K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A38
+Path = /56227430
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_WirePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A4D
+Path = /56207AFD
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_SMD:SW_SPST_EVPBF;
+EndCmp
+
+BeginCmp
+TimeStamp = 56282A59
+Path = /5620A501
+Reference = SW2;
+ValeurCmp = SPST;
+IdModule  = Buttons_Switches_ThroughHole:SW_Micro_SPST;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628C08B
+Path = /56220CFD
+Reference = P4;
+ValeurCmp = CONN_01X04;
+IdModule  = ab2_terminal_block:AB2_TB_04_RA_5MM_L-BLK;
+EndCmp
+
+BeginCmp
+TimeStamp = 562912AF
+Path = /56205406
+Reference = Y1;
+ValeurCmp = 16Mhz;
+IdModule  = Crystals:Crystal_HC49-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EF4F
+Path = /562537D7
+Reference = Q6;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EF21
+Path = /562531A9
+Reference = Q4;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EF38
+Path = /56253719
+Reference = Q5;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EEF3
+Path = /56252429
+Reference = Q2;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EEDC
+Path = /56251AC4
+Reference = Q1;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628EF0A
+Path = /56252ADF
+Reference = Q3;
+ValeurCmp = N-MOSFET;
+IdModule  = Visualizer:TO-220_NFET_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5624A383
+Path = /56258D38
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_WirePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5624A612
+Path = /5625FADF
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = ab2_input_devices:AB2_PB_MOM_6MM_PTH_BLK;
+EndCmp
+
+BeginCmp
+TimeStamp = 5628293D
+Path = /56204EAD
+Reference = IC1;
+ValeurCmp = ATMEGA328P;
+IdModule  = Visualizer:DIP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 562474B8
+Path = /562F8DFF
+Reference = U1;
+ValeurCmp = MSGEQ7;
+IdModule  = Visualizer:DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 562474C4
+Path = /562D5F4E
+Reference = U3;
+ValeurCmp = MSGEQ7;
+IdModule  = Visualizer:DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5626DF17
+Path = /56210E99
+Reference = P3;
+ValeurCmp = CONN_01X04;
+IdModule  = ab2_terminal_block:AB2_TB_04_RA_5MM_L-BLK;
+EndCmp
+
+BeginCmp
+TimeStamp = 562703E3
+Path = /56280510
+Reference = P5;
+ValeurCmp = CONN_01X14;
+IdModule  = ab2_header:AB2_HDR_M07-2V;
+EndCmp
+
+EndListe
